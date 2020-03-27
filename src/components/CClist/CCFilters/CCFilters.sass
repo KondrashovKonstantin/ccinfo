@@ -1,0 +1,50 @@
+.fltr
+    margin: 10px 5%
+    padding: 10px
+    background-color: white
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.07), 0 5px 15px 0 #00000018
+    @media screen and ( max-width: 1200px )
+        max-width: 400px
+        margin: 10px auto
+    &__filtr-btn
+        display: flex
+        align-content: center
+        margin-top: 10px
+        margin-left: 10%
+        font-size: 24px
+        padding: 10px
+        height: 50px
+        color: #0495bf
+        &:hover
+            cursor: pointer
+        &:active
+            transform: translateY(1px)
+            filter: saturate(150%)
+    .filters
+        display: flex
+        flex-direction: row
+        @media screen and ( max-width: 1200px )
+            flex-direction: column
+            align-items: center
+        &__item
+            margin-top: 10px
+            margin-left: 10px
+        &__btn
+            margin-top: 15px
+            margin-left: 10px
+            height: 40px
+        .p-dropdown-panel
+            .p-dropdown-items .p-dropdown-item.p-highlight, body .p-dropdown-panel .p-dropdown-items .p-dropdown-item-group.p-highlight
+                background-color: #0495bf
+        .p-inputtext
+            width: 50%
+            font-size: 12px
+        .p-slider
+            .p-slider-range	
+                background-color: #0495bf
+.sort-dropdown
+    width: 200px
+    height: 30px
+    border-radius: 4px
+    margin-left: 10px
+

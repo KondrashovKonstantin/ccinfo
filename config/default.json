@@ -1,0 +1,5 @@
+{
+    "port": 8000,
+    "url": "https://pro-api.coinmarketcap.com/v1/",
+    "coincap-key": "8e1fe4c5-10bd-4cd1-8fd6-1e7fb296f2c5"
+}
